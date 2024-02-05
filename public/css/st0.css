@@ -1,0 +1,71 @@
+.panel {
+    position: relative;
+    background-color: rgb(24, 21, 17);
+    margin: 20px auto;
+    width: 1280px;
+    height: 720px;
+}
+
+.note {
+    position: absolute;
+    width: 1020px;
+    height: 40px;
+    top: 90px;
+    right: 20px;
+    font-size: 14px;
+    color: white;
+    text-align: right;
+}
+
+.logo {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 20px;
+    left: 20px;
+}
+
+.btns {
+    position: absolute;
+    height: 40px;
+    top: 40px;
+    right: 20px;
+}
+
+.mybtn {
+    background-color: white;
+    width: 80px;
+    height: 100%;
+    margin: 0 10px;
+}
+
+.navs {
+    position: absolute;
+    height: 80px;
+    top: 140px;
+    left: 240px;
+}
+
+.mynav {
+    display: inline-block;
+    background-color: white;
+    width: 160px;
+    height: 80px;
+    margin: 0 10px;
+}
+
+.mynav p {
+    line-height: 60px;
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.contents {
+    position: absolute;
+    background-color: aliceblue;
+    width: 1240px;
+    height: 440px;
+    top: 240px;
+    left: 20px;
+}

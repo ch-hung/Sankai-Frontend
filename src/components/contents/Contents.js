@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function Contents() {
+export default function Contents(props) {
   return (
-    <div className='contents'>Contents</div>
+    <div className='contents'>
+      CURRENT PAGE = {props.page}
+    </div>
   )
 }

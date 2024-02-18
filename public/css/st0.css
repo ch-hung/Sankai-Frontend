@@ -69,3 +69,17 @@
     top: 240px;
     left: 20px;
 }
+
+.page-btn {
+    position: absolute;
+    top: 414px;
+}
+.left-btn {
+    position: absolute;
+    transform: scaleX(-1);
+    left: 5px;
+}
+.right-btn {
+    position: absolute;
+    right: 5px;
+}

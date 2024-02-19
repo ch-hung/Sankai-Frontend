@@ -1,6 +1,8 @@
 .panel {
     position: relative;
     background-color: rgb(24, 21, 17);
+    border: 1px solid transparent;
+    border-radius: 10px;
     margin: 20px auto;
     width: 1280px;
     height: 720px;
@@ -37,6 +39,7 @@
     width: 80px;
     height: 100%;
     margin: 0 10px;
+    font-weight: bold;
 }
 
 .navs {
@@ -59,26 +62,80 @@
     margin: 0;
     font-size: 24px;
     text-align: center;
+    font-weight: bold;
 }
 
 .contents {
     position: absolute;
-    background-color: aliceblue;
     width: 1240px;
     height: 440px;
     top: 240px;
     left: 20px;
 }
 
+.mycard-container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.mycard {
+    position: relative;
+    background-color: black;
+    border: 5px solid rgb(153, 101, 21);
+    border-radius: 10px;
+}
+
+.card-img {
+    position: absolute;
+    right: 5px;
+    height: 205px;
+    width: 205px;
+}
+
+.card-name {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 28px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+    color: white;
+}
+
+.card-price {
+    position: absolute;
+    top: 45px;
+    left: 5px;
+    font-size: 28px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+    color: white;
+}
+
+.card-detail {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+    color: white;
+}
+
+
 .page-btn {
     position: absolute;
     top: 414px;
 }
+
 .left-btn {
     position: absolute;
     transform: scaleX(-1);
     left: 5px;
 }
+
 .right-btn {
     position: absolute;
     right: 5px;

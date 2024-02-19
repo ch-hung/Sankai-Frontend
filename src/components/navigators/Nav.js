@@ -1,12 +1,12 @@
 import React from 'react'
 
-export default function Nav(props) {
+export default function Nav({ categoryIndex, categoryName, setCategory }) {
     const clickHandler = () => {
-        props.setCategory(props.categoryIndex);
+        setCategory(categoryIndex);
     }
     return (
         <div className='btn mynav' onClick={clickHandler}>
-            <p>{props.categoryName}</p>
+            <p>{categoryName}</p>
         </div>
     )
 }

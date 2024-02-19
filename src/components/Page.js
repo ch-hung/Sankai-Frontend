@@ -1,7 +1,6 @@
 import React from 'react'
 
-export default function Page(props) {
-    const { page, setPage, totalPages } = props;
+export default function Page({ page, setPage, totalPages }) {
 
     const clickHandlerR = () => {
         if (page != totalPages - 1) {

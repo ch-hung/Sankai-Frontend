@@ -1,9 +1,10 @@
 import React from 'react'
+import Card from './Card'
 
-export default function Contents(props) {
+export default function Contents({ content }) {
   return (
-    <div className='contents'>
-      CURRENT PAGE = {props.page}
+    <div className='contents mycard-container'>
+      {content && content.map(product => <Card key={product.id} product={product} />)}
     </div>
   )
 }

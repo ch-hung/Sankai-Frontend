@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function Btn(props) {
-  return (  
-    <div className='btn mybtn'>{props.text}</div>
+export default function Btn({ text }) {
+  return (
+    <div className='btn mybtn'>{text}</div>
   )
 }

@@ -7,3 +7,5 @@ Using Node.js
 - logo, navigator, button
 ### v1
 - pagination, backend api get
+### v2
+- menu finished
